@@ -1,1 +1,4 @@
-<p>color works!</p>
+<ul class="list-group">
+    <li class="list-group-item" style="background-color: black;color: white;">Colors</li>
+    <li *ngFor="let color of colors" class="list-group-item">{{color.name}}</li>
+  </ul>
